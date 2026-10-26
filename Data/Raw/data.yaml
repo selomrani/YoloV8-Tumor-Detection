@@ -1,0 +1,9 @@
+path: /home/kcrowly/PycharmProjects/YoloV8-Tumor-Detection/Data/Raw
+train: Train/images
+val: Val/images
+
+names:
+  0: glioma
+  1: meningioma
+  2: notumor
+  3: pituitary
