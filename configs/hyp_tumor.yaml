@@ -1,4 +1,4 @@
-# YOLOv8 hyperparameters for brain tumor detection (basic)
+# configs/hyp_tumor.yaml
 lr0: 0.01
 lrf: 0.01
 momentum: 0.937
@@ -9,6 +9,8 @@ warmup_bias_lr: 0.1
 box: 7.5
 cls: 0.5
 dfl: 1.5
+
+# augmentation
 hsv_h: 0.0
 hsv_s: 0.0
 hsv_v: 0.1
@@ -22,30 +24,9 @@ fliplr: 0.5
 mosaic: 0.0
 mixup: 0.0
 copy_paste: 0.0
-erasing: 0.4
-crop_fraction: 1.0
-auto_augment: randaugment
-randaugment:
-  n: 2
-  m: 9
-hsv: false
-bgr: 0.0
-contrast: 0.0
-brightness: 0.0
-saturation: 0.0
-exposure: 0.0
-grayscale: 0.0
-gamma: 0.0
-hue: 0.0
-erc: false
 close_mosaic: 10
+
 amp: true
-fraction: 1.0
-warmup_bias: 0.1
 rect: false
-image_weights: false
-overlap_mask: true
-mask_ratio: 4
-dropout: 0.0
 val: true
 plots: true
