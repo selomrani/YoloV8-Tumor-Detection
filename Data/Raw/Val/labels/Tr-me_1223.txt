@@ -1,0 +1,1 @@
+/workspace/YoloV8-Tumor-Detection/Data/Raw/Val/Meningioma/labels/Tr-me_1223.txt

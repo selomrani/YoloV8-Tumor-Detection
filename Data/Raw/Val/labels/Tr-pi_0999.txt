@@ -1,0 +1,1 @@
+/workspace/YoloV8-Tumor-Detection/Data/Raw/Val/Pituitary/labels/Tr-pi_0999.txt
