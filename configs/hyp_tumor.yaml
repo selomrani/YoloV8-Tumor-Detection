@@ -1,0 +1,32 @@
+# configs/hyp_tumor.yaml
+lr0: 0.01
+lrf: 0.01
+momentum: 0.937
+weight_decay: 0.0005
+warmup_epochs: 3.0
+warmup_momentum: 0.8
+warmup_bias_lr: 0.1
+box: 7.5
+cls: 0.5
+dfl: 1.5
+
+# augmentation
+hsv_h: 0.0
+hsv_s: 0.0
+hsv_v: 0.1
+degrees: 3.0
+translate: 0.1
+scale: 0.5
+shear: 0.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.5
+mosaic: 0.0
+mixup: 0.0
+copy_paste: 0.0
+close_mosaic: 10
+
+amp: true
+rect: false
+val: true
+plots: true

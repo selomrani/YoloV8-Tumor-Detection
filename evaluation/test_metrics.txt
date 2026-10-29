@@ -1,0 +1,7 @@
+Evaluated ONCE on test split with runs/detect/train-8/weights/best.pt (val-9)
+
+all: P=0.972 R=0.968 mAP50=0.986 mAP50-95=0.806
+glioma: P=0.944 R=0.935 mAP50=0.968 mAP50-95=0.790
+meningioma: P=0.980 R=0.994 mAP50=0.994 mAP50-95=0.848
+notumor: P=0.996 R=1.000 mAP50=0.995 mAP50-95=0.807
+pituitary: P=0.966 R=0.942 mAP50=0.985 mAP50-95=0.781

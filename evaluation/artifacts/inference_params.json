@@ -1,0 +1,1 @@
+{"imgsz": 640, "conf": 0.25, "iou": 0.45, "device": "cpu", "split_eval": "test", "model": "runs/detect/train-8/weights/best.pt", "evaluated_once": true}

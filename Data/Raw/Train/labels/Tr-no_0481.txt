@@ -1,0 +1,1 @@
+/workspace/YoloV8-Tumor-Detection/Data/Raw/Train/No Tumor/labels/Tr-no_0481.txt

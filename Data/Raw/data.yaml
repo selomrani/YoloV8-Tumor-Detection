@@ -1,4 +1,4 @@
-path: /home/kcrowly/PycharmProjects/YoloV8-Tumor-Detection/Data/Raw
+path: /workspace/YoloV8-Tumor-Detection/Data/Raw
 train: Train/images
 val: Val/images
 

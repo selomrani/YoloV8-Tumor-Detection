@@ -1,0 +1,1 @@
+/workspace/YoloV8-Tumor-Detection/Data/Raw/Train/Pituitary/labels/Tr-piTr_0004.txt
