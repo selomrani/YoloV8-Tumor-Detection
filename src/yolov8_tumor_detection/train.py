@@ -6,8 +6,8 @@ from ultralytics import YOLO, settings
 settings.update({"mlflow": True})
 
 
-os.environ["MLFLOW_TRACKING_URI"] = "http://localhost:5000"
-os.environ["MLFLOW_EXPERIMENT_NAME"] = "Yolo_tumor_detection"
+os.environ.setdefault("MLFLOW_TRACKING_URI", "http://localhost:5001")
+os.environ.setdefault("MLFLOW_EXPERIMENT_NAME", "Yolo_tumor_detection")
 
 
 # we start by a smaller Yolov8 model and then we will move to a bigger one
